@@ -1,0 +1,21 @@
+main #accordion {
+  margin-top: 5rem;
+}
+main #accordion .headeraccor {
+  cursor: pointer;
+}
+main #accordion .headeraccor span {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+main #accordion .bodyaccor {
+  display: none;
+}
+main #accordion .bodyaccor.active {
+  display: block;
+}
+main #accordion .accordion-list .headeraccor {
+  background-color: #cccccc;
+  border-bottom: 1px solid;
+}/*# sourceMappingURL=style.css.map */

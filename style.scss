@@ -1,0 +1,34 @@
+main {
+    #accordion
+{
+    margin-top:5rem;
+    .headeraccor
+    {
+        cursor: pointer;
+        span
+        {
+            font-size: 12px;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+        }
+    }
+    .bodyaccor
+    {
+        display: none;
+       
+    }
+    .bodyaccor.active
+    {
+        display: block;
+    }
+    .accordion-list
+    {
+        .headeraccor
+        {
+            background-color:#cccccc;
+            border-bottom: 1px solid;
+           
+        }
+    }
+}
+}
